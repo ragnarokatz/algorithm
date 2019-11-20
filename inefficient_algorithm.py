@@ -3,6 +3,7 @@ import random
 
 
 start_time = time.time()
+random.seed(0)
 
 ROUTES_TO = [random.randint(0, 10000) for n in range(10000)]
 ROUTES_BACK = [random.randint(0, 10000) for n in range(10000)]
